@@ -1,10 +1,16 @@
 # ECE 153B - Energy Efficient Lighting
 
-Overview/Goal/Purpose:
-We would like to create a energy efficient lighting system, that will only draw as much power as is absolutely needed. To do this, we will implement a 
+### Overview/Goal/Purpose:
+We would like to create a energy efficient lighting system, that will only draw as much power as is absolutely needed. To do this, we will implement a light sensor, which will monitor the ambient light of the space and make adjustments in the LED brightness to maintain a standard level of overall brightness in the space. A secondary goal to further conserve energy is to implement motion or infrared based triggering, so the light only turns on once there is someone in the vicinity, and turns off once they leave.
 
+### Peripherals
+- LED/smart lamp or dimmer switch: LIFX a19 smart bulb>
+- light sensor: adafruit bh1750
+- optional motion/infrared sensor: onyehn infrared pir motion sensor detector
 
-
+### Serial Interfaces
+- I2C (Light sensor)
+- UART (bluetooth light bulb)
 
 ## Using Github pages (reference)
 
