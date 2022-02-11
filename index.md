@@ -1,4 +1,11 @@
-## Welcome to GitHub Pages
+# ECE 153B - Energy Efficient Lighting
+
+testing this out
+
+
+
+
+## Using Github pages (reference)
 
 You can use the [editor on GitHub](https://github.com/kthanigaivelan/ece_153b_project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
