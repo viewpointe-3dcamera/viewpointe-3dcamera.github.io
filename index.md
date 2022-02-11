@@ -1,6 +1,7 @@
 # ECE 153B - Energy Efficient Lighting
 
-testing this out
+Overview/Goal/Purpose:
+We would like to create a energy efficient lighting system, that will only draw as much power as is absolutely needed. To do this, we will implement a 
 
 
 
