@@ -4,13 +4,20 @@
 We would like to create a energy efficient lighting system, that will only draw as much power as is absolutely needed. To do this, we will implement a light sensor, which will monitor the ambient light of the space and make adjustments in the LED brightness to maintain a standard level of overall brightness in the space. A secondary goal to further conserve energy is to implement motion or infrared based triggering, so the light only turns on once there is someone in the vicinity, and turns off once they leave.
 
 ### Peripherals
-- LED/smart lamp or dimmer switch: LIFX a19 smart bulb>
+- LED/smart lamp or dimmer switch: LIFX white e26 smart bulb
 - light sensor: adafruit bh1750
 - optional motion/infrared sensor: onyehn infrared pir motion sensor detector
 
 ### Serial Interfaces
 - I2C (Light sensor)
-- UART (bluetooth light bulb)
+- UART (To python script used to control light bulb)
+
+### Software Structure
+If implementing motion detector: From an idle state, system is "woken up" by an interrupt triggered by the pulse from motion sensor.
+
+If manual wake: Simply powering on the circuit will let the system enter a monitoring state.
+
+The system, when awake, will take continuous readings from the light sensor, and use the comparison of this lux value to determine how much the bulb should be adjusted. This is sent via UART to a Python script (do we need a bluetooth module here?), which then uses the LIFX API to control the brightness of the bulb, adjustable by percentage.
 
 ## Using Github pages (reference)
 
