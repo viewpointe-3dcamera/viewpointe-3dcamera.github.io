@@ -19,6 +19,10 @@ If manual wake: Simply powering on the circuit will let the system enter a monit
 
 The system, when awake, will take continuous readings from the light sensor, and use the comparison of this lux value to determine how much the bulb should be adjusted. This is sent via UART to a Python script (do we need a bluetooth module here?), which then uses the LIFX API to control the brightness of the bulb, adjustable by percentage.
 
+### Weekly Updates
+**02/25:**
+We bought the LIFX Smart Lamp and worked on interfacing with the LIFXLAN library to control the lamp with Python. We also worked on setting up the BH1750 sensor using I2C protocols, by pseudocoding all the functions (init, reset, mode set, read data, etc) and understanding the commands taken by the sensor. We referenced Lab 4's I2C setup to do this. We will also be ordering the motion sensor.
+
 ## Using Github pages (reference)
 
 You can use the [editor on GitHub](https://github.com/kthanigaivelan/ece_153b_project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
