@@ -23,6 +23,10 @@ The system, when awake, will take continuous readings from the light sensor, and
 **02/25:**
 We bought the LIFX Smart Lamp and worked on interfacing with the LIFXLAN library to control the lamp with Python. We also worked on setting up the BH1750 sensor using I2C protocols, by pseudocoding all the functions (init, reset, mode set, read data, etc) and understanding the commands taken by the sensor. We referenced Lab 4's I2C setup to do this. We will also be ordering the motion sensor.
 
+**03/04:**
+We were successful in implementing the function necessary to set up the BH1750 sensor. It now reads the correct lux values, which we tested by using different levels of light from a phone flashlight. We used a serial connection to output this in Termite. We attempted to do the same using the Bluetooth module, but ran into problems with the use of pins for UART communication. We will look into this next week. We have ordered the motion sensor, and will be working on implementing PyBluez and LifxLAN libraries in Python in order to communicate with the lamp.
+![Image](week2update.png)
+
 ## Using Github pages (reference)
 
 You can use the [editor on GitHub](https://github.com/kthanigaivelan/ece_153b_project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
