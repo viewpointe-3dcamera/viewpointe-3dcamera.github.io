@@ -28,6 +28,9 @@ We were successful in implementing the function necessary to set up the BH1750 s
 
 ![Image](week2update.png)
 
+**03/11**
+We realized there was a conflict in our I2C pins and UART pins, so we reassigned the pins for our brightness sensor. We also realized that our bluetooth module is broken, so we are working on obtaining another, and will attend office hours for help. We also worked on the Python interfacing with the Bluetooth, but haven't been able to test it since the module is broken.
+
 ## Using Github pages (reference)
 
 You can use the [editor on GitHub](https://github.com/kthanigaivelan/ece_153b_project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
