@@ -29,7 +29,7 @@ We were successful in implementing the function necessary to set up the BH1750 s
 ![Image](week2update.png)
 
 **03/11**
-We realized there was a conflict in our I2C pins and UART pins, so we reassigned the pins for our brightness sensor. We also realized that our bluetooth module is broken, so we are working on obtaining another, and will attend office hours for help. We also worked on the Python interfacing with the Bluetooth, but haven't been able to test it since the module is broken.
+We realized there was a conflict in our I2C pins and UART pins, so we reassigned the pins for our brightness sensor. We thought that our bluetooth module was broken, but after attending office hours we were able to have the module transmit the ambience data. We also worked on the Python interfacing with the Bluetooth, and are working on transmitting this to the smart bulb.
 
 ## Using Github pages (reference)
 
