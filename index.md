@@ -1,3 +1,8 @@
+<div>
+  <p> Test menu </p>
+  <p> Test menu </p>
+</div>
+
 # ECE 153B - Energy Efficient Lighting
 
 ### Overview/Goal/Purpose:
