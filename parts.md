@@ -1,7 +1,4 @@
-[Home](https://kthanigaivelan.github.io/ece_153b_project/)
-**[Parts](https://kthanigaivelan.github.io/ece_153b_project/parts)**
-[Updates](https://kthanigaivelan.github.io/ece_153b_project/updates)
-
+# Parts
 
 ### Peripherals
 - LED/smart lamp or dimmer switch: LIFX white e26 smart bulb
