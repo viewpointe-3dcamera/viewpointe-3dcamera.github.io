@@ -1,6 +1,4 @@
-[Home](https://kthanigaivelan.github.io/ece_153b_project/)
-[Parts](https://kthanigaivelan.github.io/ece_153b_project/parts)
-**[Updates](https://kthanigaivelan.github.io/ece_153b_project/updates)**
+# Updates
 
 ### Weekly Updates
 **02/25:**
