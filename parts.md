@@ -1,11 +1,6 @@
-layout: page
-title: "PAGE 2"
-permalink: /parts/
-
-
 [Home](https://kthanigaivelan.github.io/ece_153b_project/)
-**[Parts](https://kthanigaivelan.github.io/ece_153b_project/parts/)**
-[Updates](https://kthanigaivelan.github.io/ece_153b_project/updates/)
+**[Parts](https://kthanigaivelan.github.io/ece_153b_project/parts)**
+[Updates](https://kthanigaivelan.github.io/ece_153b_project/updates)
 
 
 ### Peripherals
