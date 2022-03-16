@@ -1,6 +1,10 @@
-{% include menu.html %}
+[Home](https://kthanigaivelan.github.io/ece_153b_project/)
+**[Parts](https://kthanigaivelan.github.io/ece_153b_project/parts/)**
+[Updates](https://kthanigaivelan.github.io/ece_153b_project/updates/)
+
 
 # ECE 153B - Energy Efficient Lighting
+
 Archana Neupane & Krithika Thanigaivelan
 
 ### Overview/Goal/Purpose:
@@ -8,6 +12,7 @@ We would like to create a energy efficient lighting system, that will only draw 
 
 ### Demonstration Video:
 {% include youtubePlayer.html %}
+
 
 ### Block Diagram
 ![Image](blockdiagram.png)
