@@ -1,6 +1,6 @@
-[Home](https://kthanigaivelan.github.io/ece_153b_project/)
-**[Parts](https://kthanigaivelan.github.io/ece_153b_project/parts/)**
-[Updates](https://kthanigaivelan.github.io/ece_153b_project/updates/)
+**[Home](https://kthanigaivelan.github.io/ece_153b_project/)**
+[Parts](https://kthanigaivelan.github.io/ece_153b_project/parts)
+[Updates](https://kthanigaivelan.github.io/ece_153b_project/updates)
 
 
 # ECE 153B - Energy Efficient Lighting
