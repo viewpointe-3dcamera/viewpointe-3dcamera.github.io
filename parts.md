@@ -5,11 +5,11 @@ PolarFire Video Imaging Board
 The PolarFire Video Board comes with the MPF300T-1FCG1152E FPGA mounted on it
 It comes with a 64 bit RISC-V CPU, which has a 148.5 MHz maximum clock frequency, and is compatible with MIPI CSI-2, DSI and CS interfaces
 The board has HDMI 2.0 and HDMI 1.4 ports available for use.
-Dual Camera Sensor Board
+
+### Dual Camera Sensor Board
 This PCB comes with two cameras mounted on it at a fixed distance, which allows for two separate lines of sight. However, it doesn’t allow for adjustment of the distance between the two lenses.
-This board can be connected directly to the PolarFIre Video Imaging board using the pins
-This sensor board is swapped out for the Alcon Camera Lenses
-The datasheet for this FPGA Video Kit by PolarFire can be found here 
+This board can be connected directly to the PolarFIre Video Imaging board using the pins.
+This sensor board is swapped out for the Alcon Camera Lenses.
 
 ### 4K Sensor Adaptor Board (Sponsor Tech)
 This board was developed by Alcon to resolve compatibility issues with the Alcon camera lenses. Using this adapter board allows for the use of the 4K HDMI Port.
