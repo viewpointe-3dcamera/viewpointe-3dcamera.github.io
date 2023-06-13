@@ -4,7 +4,5 @@
 ![Image](hwblockdiagram.png)
 
 ### Software Flow
-
-### Block Diagram
 ![Image](swblockdiagram.png)
 
