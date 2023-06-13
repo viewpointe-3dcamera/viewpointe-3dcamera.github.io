@@ -1,6 +1,7 @@
 Our goal is to build a camera that can capture and process surgical microscope images to be directly visualized in 3D.
-### Abstract
-Viewpointe ties into Alcon’s Ngenuity visualization system, working to collect stereo images from a microscope used by surgeons during cataract operations. Using an FPGA, the two image inputs will be processed into a display form suitable for a 3D monitor. The user will have the ability to choose between visual formats, including side-by-side, top-bottom, and traditional intersampled mosaic. The input type will also support both HDMI and DisplayPort. All processing will happen on the camera itself, without requiring an external computer. By bypassing Ngenuity’s host computer, our hope is to decrease latency and end user costs.
+### Problem
+Alcon’s existing Ngenuity system seeks to capture stereo images from an ophthalmic surgical microscope, process the two images on a host computer, and provide a high definition, 3D image that can be displayed on a supporting display. This provides the surgeon with a higher resolution, ergonomic working environment. The use of a separate computer and a USB communication protocol, however, has introduced significant delays and image quality issues into the system, which Alcon seeks to correct.
 
-### Block Diagram
-![Image](blockdiagram.png)
+### Solution
+To reduce latency, we attempt to remove the need for intensive graphics processing on the host computer, by utilizing an FPGA. The two image inputs will be processed into a display form suitable for a 3D monitor. The user will have the ability to choose between visual formats, including side-by-side, top-bottom, and traditional intersampled mosaic. The input type will also support both HDMI and DisplayPort. All processing will happen on the camera itself, without requiring an external computer.
+
